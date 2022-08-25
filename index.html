@@ -7,22 +7,41 @@
     <title>Blog</title>
 </head>
 <body>
-    <nav>
-        <a href="aboutus.html">Sobre nosotros</a>
+    <nav style="text-align:center; ">
+        <a href="actualidad.html" style="color:#F42C04; text-decoration:none">Pizza en la actualidad</a>
+        <a href="#Contacto" style="color: #F42C04; text-decoration:none; margin: 1rem;">Contacto</a>
     </nav>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-    <p>Lorem ipsum dolor, sit amet <strong>consectetur adipisicing elit.</strong> Quo aliquid, culpa, qui necessitatibus dolores vel vitae nulla nesciunt perferendis excepturi iusto accusantium non velit! deleniti vero esse doloribus excepturi?
-    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nobis sit enim maxime porro doloremque repellat provident eos, autem voluptate hic tenetur eaque dolorum qui pariatur asperiores dolorem totam neque!
-    </p>
+    <header>
+    <h1>Blog acerca de la pizza</h1>
+   <p>La pizza se prepara y consume en todo Argentina, principalmente en sus zonas metropolitanas que tienen una masiva proporción de habitantes descendientes de italianos.<strong>La Argentina cuenta con la mayor cantidad de pizzerías por habitante del mundo.</strong>
+La pizza en Argentina se caracteriza por su masa de mayor grosor y la abundancia de queso mozzarella de vaca, "hasta los bordes, para que se dore y se gratine". Una de las formas características y tradicionales de consumirla es con fainá y el acompañamiento de vino moscato.</p>
+    </header>
     <hr>
-    <h2>Sapiente ullam delectus nulla accusantium atque optio.</h2>
-    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptates quos assumenda minima amet. Cum numquam, harum ex totam sit atque.</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et natus rem fugiat, cupiditate in repellendus nesciunt quisquam quidem ullam quaerat nobis reiciendis repudiandae minus, quod hic libero dolores minima numquam?</p>
-    <ul>
-        <li>Sed voluptatem perferendis dicta eos ratione et alias voluptates</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-        <li>Aspernatur <em>maxime inventore!</em> Perferendis?</li>
+    <h2>Historia de la pizza en Argentina</h2>
+    <p>La pizza llega a la Argentina en la segunda mitad del siglo XIX con la ola de inmigración que convirtió a las etnias italianas en mayoritarias dentro de la población argentina. Su punto de aparición fue el barrio de La Boca, en Buenos Aires, de abrumadora mayoría genovesa, donde en 1882 Nicola Vaccarezza construyó el primer horno documentado, donde comenzó a cocinar fainá, una tortilla de garbanzo de origen genovés que desde un inicio caracterizará a la pizza argentina, como acompañante, al igual que el moscato, de origen piamontés. De esos tiempos data una fotografía histórica que muestra al también genovés y boquense Ricardo Ravadero vendiendo pizzas en la calle.</p>
+    <p>Pero será la familia Banchero la que quedará asociada al origen de la pizza argentina. En 1893 el genovés Agustín Banchero, se radicó en La Boca y abrió una panadería llamada "Riachuelo" (Olavarría entre Carlos F. Melo e Irala), que atendería con su hijo Juan. Allí no solo vendieron pizzas, sino que Juan Banchero inventó la fugazza con queso y la fugazzetta, una combinación original de pizza y focaccia (fugassa en genovés), hecha de pan y cebolla. En 1932 Juan Banchero y sus hijos abrieron la pizzería Banchero en La Boca (Brown y Suárez), que se convertiría en una de las principales cadenas de Buenos Aires. En 1934 Juan Banchero fue nombrado “Emperador de la Fugaza con Queso” por la República de La Boca, célebre asociación cultural del barrio integrada por destacados artistas. </p>
+    <center><img src="https://diariocronica2.cdn.net.ar/i1700/diariocronica2/images/38/04/380467_addd20ad800484b4ead40cfee694816bbec27c53d338030041861e0e18e4425a/lg.webp" alt="cocineros argentinos presentando una pizza" style="width: 400px;"></center><br>
+    <h3>Etimologia</h3>
+    <ul style="margin: 1rem;">
+        <li>La palabra en alemán antiguo "bizzo" o "pizzo", que en español significa "bocado". Fue llevada a Italia a mediados del siglo VI por la invasión de los lombardos. Este origen es el apoyado por "Oxford English Dictionary" (Diccionario de inglés de Oxford), aunque aclara que no es certero.</li>
+        <li>La palabra en latín "pinsa", el pasado participio de "pinsere", que significa "aplanar" y se referiría al aplanamiento de la masa.</li>
+        <li>La palabra italiana "pizzicare", en español la traducción más correcta sería "sacar" y se referiría a "sacar" la pizza rápidamente del horno</li>
+        <li>La palabra en griego antiguo πικτή (pikte), "pastelería fermentada", que luego en latín se transformó en "picta", y luego evolucionó a pizza.</li>
     </ul>
+    <div id="Contacto" style="background-color: #ADA296; margin:0; padding:2rem;" >
+         <form action="https://formspree.io/f/mjvzvzjg" method="post">
+       <p> Si quieres saber mas acerca de la pizza y las ultimas noticias </p>
+        <label for="nombre">Nombre:</label> <input type="text" name="Nombre" id="nombre" required>
+        <label for="email">Email:</label> <input type="email" name="Email" id="email" required><br>
+        ¿Que tipo de noticia quiere recibir?
+        <select name="tipodenot" id="" required>
+            <option value="todo">Los dos</option>
+            <option value="ofertasydesc">Todas las ofertas ydescuentos de las pizzerias.</option>
+            <option value="noticias">Todas las noticias </option>
+        </select><br>
+        <textarea name="ConsultaOPregunta" cols="30" rows="10" placeholder="¿Alguna consulta o pregunta?"></textarea><br>
+       <button type="submit" style="background-color: #E2856E; border: none; padding: 10px; margin: 5px;">Crear</button>
+    </div>
     <!---Este es un mensaje secreto-->
 </body>
 </html>
